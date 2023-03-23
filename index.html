@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Books</title>
+</head>
+<body>
+  <div class="container header">
+    <h1 class="title">Books</h1>
+    <div class="wrap">
+      <form class="js-form">
+        <input class="search-input js-input" type="search" placeholder="Enter Books name">
+      </form>
+      <button class="search-btn js-btn">search</button>
+    </div>
+    <button class="mode js-mode">
+      <img src="./images/creative-idea-ideation-svgrepo-com.svg" width="25" height="25" alt="">
+    </button>
+  </div>
+
+  <div class="container header">
+    <select class="select js-select">
+      <option selected disabled>Sort by Alfabit</option>
+      <option value="All">All</option>
+      <option value="A-Z">A-Z</option>
+      <option value="Z-A">Z-A</option>
+    </select>
+
+    <select class="select js-selectAuthor">
+      <option selected disabled>Sort by Author</option>
+      <option value="All">All</option>
+    </select>
+
+    <select class="select js-selectYear">
+      <option selected disabled>Sort by Year</option>
+      <option value="All">All</option>
+    </select>
+
+    <select class="select js-selectPage">
+      <option selected disabled>Sort by Page</option>
+      <option value="All">All</option>
+    </select> 
+
+    <select class="select js-selectLang">
+      <option selected disabled>Sort by Language</option>
+      <option value="All">All</option>
+    </select>
+  </div>
+
+  <div class="container books">
+    <ul class="books__list js-list"></ul>
+  </div>
+</body>
+<script src="./js/books.js"></script>
+<script src="./js/main.js"></script>
+</html>

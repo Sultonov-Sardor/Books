@@ -1,0 +1,103 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.dark{
+  background-color: #000;
+  color: #fff;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:40px 0
+}
+
+.title{
+  margin: 0;
+  font-weight: 600;
+  font-size: 34px;
+}
+
+.wrap{
+  display: flex;
+  align-items: center;
+}
+
+.search-input{
+  padding: 10px 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: none;
+}
+
+.search-btn{
+  padding: 10px 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: none;
+}
+
+.mode{
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-color: transparent;
+}
+
+.select{
+  padding: 10px 20px;
+  border-radius: 20px;
+  width: 200px;
+  border: none;
+}
+
+.books{
+  padding: 0;
+}
+
+.books__list{
+  margin: 0;
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.books-item{
+  width: 400px;
+  /* height: 700px; */
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.books-title{
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  height: 20px;
+}
+
+.books-span{
+  text-align: center;
+  margin-bottom: 20px;
+}
